@@ -1,0 +1,297 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local CommandsGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local CloseButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+
+--Properties:
+
+CommandsGui.Name = "CommandsGui"
+CommandsGui.Parent = game.CoreGui
+CommandsGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = CommandsGui
+Frame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Frame.BorderColor3 = Color3.fromRGB(45, 45, 45)
+Frame.Position = UDim2.new(0.431801617, 0, 0.382252544, 0)
+Frame.Size = UDim2.new(0, 187, 0, 207)
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+ScrollingFrame.BackgroundTransparency = 99.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(45, 45, 45)
+ScrollingFrame.Size = UDim2.new(0, 187, 0, 207)
+ScrollingFrame.ScrollBarThickness = 1
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 5)
+
+TextLabel.Parent = ScrollingFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel.BackgroundTransparency = 9999.000
+TextLabel.Size = UDim2.new(0, 178, 0, 23)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "fly"
+TextLabel.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel.TextSize = 30.000
+
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_2.BackgroundTransparency = 9999.000
+TextLabel_2.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "fly2"
+TextLabel_2.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_2.TextSize = 30.000
+
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_3.BackgroundTransparency = 9999.000
+TextLabel_3.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "sh"
+TextLabel_3.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_3.TextSize = 30.000
+
+TextLabel_4.Parent = ScrollingFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_4.BackgroundTransparency = 9999.000
+TextLabel_4.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "cldwn"
+TextLabel_4.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_4.TextSize = 30.000
+
+TextLabel_5.Parent = ScrollingFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_5.BackgroundTransparency = 9999.000
+TextLabel_5.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "stamina"
+TextLabel_5.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_5.TextSize = 30.000
+
+TextLabel_6.Parent = ScrollingFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_6.BackgroundTransparency = 9999.000
+TextLabel_6.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "cspy"
+TextLabel_6.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_6.TextSize = 30.000
+
+TextLabel_7.Parent = ScrollingFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_7.BackgroundTransparency = 9999.000
+TextLabel_7.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "re"
+TextLabel_7.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_7.TextSize = 30.000
+
+TextLabel_8.Parent = ScrollingFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_8.BackgroundTransparency = 9999.000
+TextLabel_8.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "ww"
+TextLabel_8.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_8.TextSize = 30.000
+
+TextLabel_9.Parent = ScrollingFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_9.BackgroundTransparency = 9999.000
+TextLabel_9.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "sa"
+TextLabel_9.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_9.TextSize = 30.000
+
+TextLabel_10.Parent = ScrollingFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_10.BackgroundTransparency = 9999.000
+TextLabel_10.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "tt"
+TextLabel_10.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_10.TextSize = 30.000
+
+TextLabel_11.Parent = ScrollingFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_11.BackgroundTransparency = 9999.000
+TextLabel_11.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "zoom"
+TextLabel_11.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_11.TextSize = 30.000
+
+TextLabel_12.Parent = ScrollingFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_12.BackgroundTransparency = 9999.000
+TextLabel_12.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "fog"
+TextLabel_12.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_12.TextSize = 30.000
+
+TextLabel_13.Parent = ScrollingFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_13.BackgroundTransparency = 9999.000
+TextLabel_13.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "as"
+TextLabel_13.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_13.TextSize = 30.000
+
+TextLabel_14.Parent = ScrollingFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_14.BackgroundTransparency = 9999.000
+TextLabel_14.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "god"
+TextLabel_14.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_14.TextSize = 30.000
+
+TextLabel_15.Parent = ScrollingFrame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_15.BackgroundTransparency = 9999.000
+TextLabel_15.Position = UDim2.new(0.0213903747, 0, -0.0120481923, 0)
+TextLabel_15.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = "ak"
+TextLabel_15.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_15.TextSize = 30.000
+
+TextLabel_16.Parent = ScrollingFrame
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_16.BackgroundTransparency = 9999.000
+TextLabel_16.Position = UDim2.new(0.0213903747, 0, -0.0120481923, 0)
+TextLabel_16.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = "view [plr]"
+TextLabel_16.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_16.TextSize = 30.000
+
+TextLabel_17.Parent = ScrollingFrame
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_17.BackgroundTransparency = 9999.000
+TextLabel_17.Position = UDim2.new(0.0213903747, 0, -0.0120481923, 0)
+TextLabel_17.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = "unview"
+TextLabel_17.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_17.TextSize = 30.000
+
+TextLabel_18.Parent = ScrollingFrame
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_18.BackgroundTransparency = 9999.000
+TextLabel_18.Position = UDim2.new(0.0213903747, 0, -0.0120481923, 0)
+TextLabel_18.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_18.Font = Enum.Font.SourceSans
+TextLabel_18.Text = "aimbot"
+TextLabel_18.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_18.TextSize = 30.000
+
+TextLabel_19.Parent = ScrollingFrame
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_19.BackgroundTransparency = 9999.000
+TextLabel_19.Position = UDim2.new(0.0213903747, 0, -0.0120481923, 0)
+TextLabel_19.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = "noslow"
+TextLabel_19.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_19.TextSize = 30.000
+
+TextLabel_20.Parent = ScrollingFrame
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_20.BackgroundTransparency = 9999.000
+TextLabel_20.Position = UDim2.new(0.0213903747, 0, -0.0120481923, 0)
+TextLabel_20.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_20.Font = Enum.Font.SourceSans
+TextLabel_20.Text = "antiafk"
+TextLabel_20.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_20.TextSize = 30.000
+
+TextLabel_21.Parent = ScrollingFrame
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_21.BackgroundTransparency = 9999.000
+TextLabel_21.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_21.Font = Enum.Font.SourceSans
+TextLabel_21.Text = "ij"
+TextLabel_21.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_21.TextSize = 30.000
+
+TextLabel_22.Parent = ScrollingFrame
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_22.BackgroundTransparency = 9999.000
+TextLabel_22.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_22.Font = Enum.Font.SourceSans
+TextLabel_22.Text = "esp"
+TextLabel_22.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_22.TextSize = 30.000
+
+TextLabel_23.Parent = ScrollingFrame
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+TextLabel_23.BackgroundTransparency = 9999.000
+TextLabel_23.Size = UDim2.new(0, 178, 0, 23)
+TextLabel_23.Font = Enum.Font.SourceSans
+TextLabel_23.Text = "esp2"
+TextLabel_23.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_23.TextSize = 30.000
+
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = Frame
+CloseButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+CloseButton.Position = UDim2.new(0.914438546, 0, -0.0628019273, 0)
+CloseButton.Size = UDim2.new(0, 38, 0, 36)
+CloseButton.Font = Enum.Font.SourceSans
+CloseButton.Text = "X"
+CloseButton.TextColor3 = Color3.fromRGB(125, 125, 125)
+CloseButton.TextSize = 50.000
+
+UICorner.CornerRadius = UDim.new(0, 30)
+UICorner.Parent = CloseButton
+
+-- Scripts:
+
+local function JWKO_fake_script() -- CloseButton.Script 
+	local script = Instance.new('Script', CloseButton)
+
+	local function OnClicked()
+	   script.Parent.Parent:Remove()
+	end
+	
+	script.Parent.MouseButton1Click:connect(OnClicked)
+end
+coroutine.wrap(JWKO_fake_script)()
